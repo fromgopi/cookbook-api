@@ -7,6 +7,8 @@ name = "pypi"
 flask = "*"
 flask-restful = "*"
 python-dotenv = "*"
+flask-mongoengine = "*"
+mongoengine = "*"
 
 [dev-packages]
 
