@@ -9,6 +9,7 @@ flask-restful = "*"
 python-dotenv = "*"
 flask-mongoengine = "*"
 mongoengine = "*"
+marshmallow = "*"
 
 [dev-packages]
 
