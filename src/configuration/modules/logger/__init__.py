@@ -78,5 +78,6 @@ def setup_logger(config):
             config['LOG_ERROR_FILE_LEVEL'],
             config['LOG_ERROR_FILE_TO']))
     except Exception as error:  # pylint: disable=broad-except
+        
         print(error)
         sys.exit(1)
