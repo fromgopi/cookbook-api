@@ -27,14 +27,15 @@ def get_configuration(logger):
         configuration.LOG_DEBUG_FILE_TO = os.getenv('LOG_DEBUG_FILE_TO')
         configuration.LOG_ERROR_FILE_LEVEL = os.getenv('LOG_ERROR_FILE_LEVEL')
         configuration.LOG_ERROR_FILE_TO = os.getenv('LOG_ERROR_FILE_TO')
-        configuration.MONGODB_SETTINGS = os.getenv('MONGODB_SETTINGS')
+        configuration.MONGODB_SETTINGS = {'host': os.getenv('MONGODB_SETTINGS')}
         
         return configuration
     except ConfigurationError as error:
         logger.fatal('[Boot] ' + getattr(error, 'message', str(error)))
         sys.exit(1)
 
-def setup_configuration():
+def setup_configuration(app):
     """Configures the app"""
     logger = logging.getLogger(__name__)
     configuration = get_configuration(logger)
+    app.config.from_object(configuration)
