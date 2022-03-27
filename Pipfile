@@ -10,6 +10,7 @@ python-dotenv = "*"
 flask-mongoengine = "*"
 mongoengine = "*"
 marshmallow = "*"
+flask-script = "*"
 
 [dev-packages]
 
