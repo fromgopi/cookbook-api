@@ -12,7 +12,5 @@ def create_app():
     app = Flask(__name__)
     API.init_app(app)
     setup_configuration(app)
-    # pprint(app.config)
-    print(app.config['MONGODB_SETTINGS'])
     DB.init_app(app)
     return app
