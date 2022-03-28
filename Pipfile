@@ -11,6 +11,7 @@ flask-mongoengine = "*"
 mongoengine = "*"
 marshmallow = "*"
 flask-script = "*"
+python-json-logger = "*"
 
 [dev-packages]
 

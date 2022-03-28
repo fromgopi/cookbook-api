@@ -70,13 +70,14 @@ class RequestHandlerLoggerOverride(WSGIRequestHandler):
 def setup_logger(config):
     """Initialize the logger with the configured settings"""
     try:
-        dictConfig(get_configuration(
+        json_config = get_configuration(
             config['NAME'],
             config['LOG_CONSOLE_LEVEL'],
             config['LOG_DEBUG_FILE_LEVEL'],
             config['LOG_DEBUG_FILE_TO'],
             config['LOG_ERROR_FILE_LEVEL'],
-            config['LOG_ERROR_FILE_TO']))
+            config['LOG_ERROR_FILE_TO'])
+        dictConfig(json_config)
     except Exception as error:  # pylint: disable=broad-except
         
         print(error)
