@@ -4,14 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
+flask = "2.0.2"
 flask-restful = "*"
 python-dotenv = "*"
 flask-mongoengine = "*"
 mongoengine = "*"
 marshmallow = "*"
-flask-script = "*"
 python-json-logger = "*"
+flask-script = "2.0.5"
 
 [dev-packages]
 
