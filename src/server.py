@@ -16,4 +16,3 @@ def create_app():
     DB.init_app(app)
     return app
 
-
