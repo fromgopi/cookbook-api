@@ -15,4 +15,3 @@ def create_app():
     setup_logger(app.config)
     DB.init_app(app)
     return app
-
