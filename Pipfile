@@ -14,6 +14,7 @@ python-json-logger = "*"
 flask-script = "2.0.5"
 
 [dev-packages]
+pylint = "*"
 
 [requires]
 python_version = "3.9"
