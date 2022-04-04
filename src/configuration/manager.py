@@ -1,4 +1,4 @@
-"""Configuration manager"""
+"""Configuration manager""" 
 import os
 import sys
 import logging
