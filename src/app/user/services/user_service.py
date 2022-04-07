@@ -22,5 +22,5 @@ class UserService:
         except (TypeError) as ex:
             print(ex)
             
-            
         
+            
