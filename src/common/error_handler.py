@@ -52,3 +52,6 @@ def register_auth_error_handlers(jwt):
     jwt.expired_token_loader(expired_token_handler)
     jwt.unauthorized_loader(common_auth_handler)
     jwt.invalid_token_loader(common_auth_handler)
+
+
+# Print traceback from the exception
