@@ -1,5 +1,6 @@
 """Error handlers"""
 from http import HTTPStatus as http_status
+import traceback
 from flask import jsonify
 
 
@@ -52,3 +53,11 @@ def register_auth_error_handlers(jwt):
     jwt.expired_token_loader(expired_token_handler)
     jwt.unauthorized_loader(common_auth_handler)
     jwt.invalid_token_loader(common_auth_handler)
+
+
+# Print traceback from the exception
+def get_traceback(ex):
+    """Utility function that return exception and trace back"""
+    lines = traceback.format_exception(etype=type(ex), value=ex, tb=ex.__traceback__)
+    print(lines)
+    return ''.join(lines)
