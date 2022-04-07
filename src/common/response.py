@@ -19,7 +19,7 @@ def success(status, resource_name=None, resource_data=None, meta=None):
     """Success response wrapper"""
     # if resource_name is not None:
     response = {'data': {}}
-    response['data'][resource_name] = resource_data
+    response['data'][resource_name] = resource_data    
     if meta is not None:
         response['meta'] = meta
     return custom(response, status)
