@@ -1,5 +1,5 @@
-"""Configuration manager"""
-import os
+"""Configuration manager""" 
+import os 
 import sys
 import logging
 from dotenv import load_dotenv, find_dotenv

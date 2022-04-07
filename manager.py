@@ -1,13 +1,13 @@
 """ Development task runner"""
-import os
+import os 
 from logging import getLogger
 from unittest import main
 from flask_script import Manager
-from src.common.constants import DEFAULT_PORT
-
+from src.common.constants import DEFAULT_PORT  
+ 
 from src.configuration.modules.logger import RequestHandlerLoggerOverride
 
-from src.server import create_app
+from src.server import create_app 
 
 APP = create_app()
 APP.app_context().push()
