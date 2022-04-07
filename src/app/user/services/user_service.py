@@ -20,5 +20,4 @@ class UserService:
             print(self.log)
             return users
         except (TypeError) as ex:
-            print(ex)
-    
+            print(ex)    
