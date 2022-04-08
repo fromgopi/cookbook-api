@@ -5,7 +5,7 @@ MAX_QUEUE_SIZE = 1000
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
 DEFAULT = '%(asctime)s - %(thread)d - %(levelname)s - %(message)s'
 CODE_INFO = ' [in %(pathname)s:%(lineno)d in %(funcName)s]'
-
+ 
 
 def get_configuration(
         logger_name,
