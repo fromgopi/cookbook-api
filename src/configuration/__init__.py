@@ -12,7 +12,7 @@ def get_configuration(
         debug_console_level='DEBUG',
         debug_file_level='DEBUG',
         debug_file_location=None,
-        error_file_level='ERROR',
+        error_file_level='ERROR', 
         error_file_location=None):
     """
     Logging configuration
