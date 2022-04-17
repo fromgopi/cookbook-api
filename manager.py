@@ -1,5 +1,5 @@
 """ Development task runner"""  
-import os 
+import os  
 from logging import getLogger 
 from unittest import main
 from flask_script import Manager
