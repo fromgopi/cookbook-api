@@ -13,7 +13,7 @@ APP = create_app()
 APP.app_context().push()
 
 MANAGER = Manager()
-
+ 
 LOGGER = getLogger(__name__)
 
 @MANAGER.command
