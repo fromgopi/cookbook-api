@@ -20,7 +20,7 @@ LOGGER = getLogger(__name__)
 def run():
     """Development Init"""
     port = os.getenv('PORT')
-    enable_debug = (os.getenv('FLASK_DEBUG') == 'True')
+    enable_debug = (os.getenv('FLASK_DEBUG') == 'True') 
     port = int(port) if port else DEFAULT_PORT
     
     APP.run(
