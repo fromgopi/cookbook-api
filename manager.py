@@ -1,6 +1,6 @@
 """ Development task runner""" 
 import os 
-from logging import getLogger
+from logging import getLogger 
 from unittest import main
 from flask_script import Manager
 from src.common.constants import DEFAULT_PORT  
