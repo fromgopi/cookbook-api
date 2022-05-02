@@ -5,7 +5,7 @@ from unittest import main
 from flask_script import Manager
 from src.common.constants import DEFAULT_PORT      
           
-from src.configuration.modules.logger import RequestHandlerLoggerOverride 
+from src.configuration.modules.logger import RequestHandlerLoggerOverride  
 
 from src.server import create_app 
  
