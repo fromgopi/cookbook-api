@@ -2,7 +2,7 @@
 import os  
 from logging import getLogger 
 from unittest import main
-from flask_script import Manager
+from flask_script import Manager 
 from src.common.constants import DEFAULT_PORT    
    
 from src.configuration.modules.logger import RequestHandlerLoggerOverride   
