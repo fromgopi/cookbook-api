@@ -5,10 +5,10 @@ from src.server import create_app
 
 def create_instance():
     """Development Init"""
-    app = create_app()
-    port = os.getenv('PORT')
+    app = create_app() 
+    port = os.getenv('PORT') 
     enable_debug = (os.getenv('FLASK_DEBUG') == 'True')
-    port = int(port) if port else DEFAULT_PORT
+    port = int(port) if port else DEFAULT_PORT 
     app.run(
         host='0.0.0.0',
         port=port,
@@ -21,3 +21,9 @@ def create_instance():
 
 if __name__ == '__main__':
     create_instance()
+    
+    
+
+    
+
+    
