@@ -16,4 +16,3 @@ def get_many():
         print('An exception occurred')
 
 
-
