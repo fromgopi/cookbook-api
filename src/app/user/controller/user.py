@@ -15,11 +15,3 @@ def get_many():
     except (TypeError) as ex:
         print('An exception occurred')
 
-
-
-
-
-
-
-
-
