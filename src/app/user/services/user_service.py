@@ -18,3 +18,4 @@ class UserService:
         return response.success(http_status.OK, resource_name='users', resource_data=users, meta=None)
     
     
+    
