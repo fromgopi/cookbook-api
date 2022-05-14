@@ -13,4 +13,4 @@ def get_many():
         
         return {'status': 'ok', 'data': users}
     except (TypeError) as ex:
-        print('An exception occurred') 
+        print('An exception occurred')
