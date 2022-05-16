@@ -4,4 +4,3 @@ Simple cookbook
 # Introduction
 
 
-
