@@ -5,7 +5,7 @@ from src.server import create_app
 
 def create_instance():
     """Development Init""" 
-    app = create_app()
+    app = create_app() 
     port = os.getenv('PORT') 
     enable_debug = (os.getenv('FLASK_DEBUG') == 'True')
     port = int(port) if port else DEFAULT_PORT 
