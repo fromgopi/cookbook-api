@@ -5,7 +5,7 @@ const DIST_FOLDER = path.resolve(__dirname, 'dist')
 module.exports = {
 	entry: ENTRY_POINT,
 	output: {
-		path: DIST_FOLDER
+		path: DIST_FOLDER 
 	},
 	devServer: {
 		publicPath: '/',
