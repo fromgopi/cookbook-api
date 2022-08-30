@@ -8,4 +8,3 @@ class CamelCaseSchema(Schema):
 
     def on_bind_field(self, field_name, field_obj):
         field_obj.data_key = to_camel_case(field_obj.data_key or field_name)
-
