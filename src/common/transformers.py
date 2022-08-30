@@ -10,4 +10,3 @@ class CamelCaseSchema(Schema):
         field_obj.data_key = to_camel_case(field_obj.data_key or field_name)
 
        
-
