@@ -9,4 +9,3 @@ def setup_request_logger(ctx=None):
         ctx.config['NAME'] if ctx is not None else app.config['NAME'])
 
 
-
