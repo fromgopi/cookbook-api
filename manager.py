@@ -19,7 +19,7 @@ LOGGER = getLogger(__name__)
 @MANAGER.command
 def run():
     """Development Init"""
-    port = os.getenv('PORT')
+    port = os.getenv('PORT') 
     enable_debug = (os.getenv('FLASK_DEBUG') == 'True') 
     port = int(port) if port else DEFAULT_PORT
     
