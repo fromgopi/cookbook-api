@@ -10,7 +10,7 @@ def create_instance():
     enable_debug = (os.getenv('FLASK_DEBUG') == 'True')
     port = int(port) if port else DEFAULT_PORT 
     app.run(
-        host='0.0.0.0',
+        host='0.0.0.0', 
         port=port,
         debug=enable_debug,
         use_reloader=enable_debug,
