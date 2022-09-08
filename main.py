@@ -13,7 +13,7 @@ def create_instance():
         host='0.0.0.0', 
         port=port,
         debug=enable_debug,
-        use_reloader=enable_debug,
+        use_reloader=enable_debug, 
         threaded=True,
         request_handler=RequestHandlerLoggerOverride
     )
