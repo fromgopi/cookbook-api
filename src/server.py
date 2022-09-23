@@ -32,3 +32,4 @@ def register_blueprints(app):
     from src.app.user.controller.user import USER_API
     app.register_blueprint(USER_API, url_prefix=os.getenv('ROUTE_PREFIX'))
     
+    
