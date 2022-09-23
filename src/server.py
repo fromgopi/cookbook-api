@@ -33,4 +33,4 @@ def register_blueprints(app):
     app.register_blueprint(USER_API, url_prefix=os.getenv('ROUTE_PREFIX'))
     
     
-    
+
