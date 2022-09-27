@@ -54,4 +54,3 @@ def validation_error(errors):
                     http_status.UNPROCESSABLE_ENTITY)
     
     
-    
