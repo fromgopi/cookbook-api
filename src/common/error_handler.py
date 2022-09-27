@@ -62,4 +62,3 @@ def get_traceback(ex):
     print(lines)
     return ''.join(lines)
 
-
