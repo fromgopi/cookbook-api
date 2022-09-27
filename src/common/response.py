@@ -51,8 +51,5 @@ def validation_error(errors):
         else:
             messages[key] = errors.messages[key][0]
     return custom({'errors': {'messages': [messages]}},
-                    http_status.
-    
-    
-    
+                    http_status.UNPROCESSABLE_ENTITY)
     
