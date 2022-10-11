@@ -10,7 +10,7 @@ from src.configuration.modules.logger import RequestHandlerLoggerOverride
 from src.server import create_app 
   
 APP = create_app() 
-APP.app_context().push()
+APP.app_context().push() 
   
 MANAGER = Manager()
   
