@@ -5,7 +5,7 @@
 # run arbitrary code.    
 extension-pkg-whitelist=  
   
- 
+
  
 # Add files or directories to the blacklist. They should be base names, not 
 # paths.  
@@ -74,7 +74,7 @@ disable=print-statement,
         non-ascii-bytes-literal,
         raw-checker-failed,
         bad-inline-option,
-        locally-disabled,
+        locally-disabled, 
         file-ignored,
         suppressed-message,
         useless-suppression,
