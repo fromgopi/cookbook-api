@@ -11,7 +11,7 @@ from src.server import create_app
   
 APP = create_app() 
 APP.app_context().push() 
-  
+   
 MANAGER = Manager()
   
 LOGGER = getLogger(__name__)
