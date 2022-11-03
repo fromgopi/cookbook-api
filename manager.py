@@ -16,7 +16,7 @@ MANAGER = Manager()
   
 LOGGER = getLogger(__name__)
 
-@MANAGER.command
+@MANAGER.command 
 def run():
     """Development Init"""
     port = os.getenv('PORT') 
