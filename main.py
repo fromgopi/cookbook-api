@@ -1,7 +1,7 @@
 import os
 from src.common.constants import DEFAULT_PORT 
 from src.configuration.modules.logger import RequestHandlerLoggerOverride
-from src.server import create_app 
+from src.server import create_app  
 
 def create_instance():   
     """Development Init"""   
