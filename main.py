@@ -7,7 +7,7 @@ def create_instance():
     """Development Init"""   
     app = create_app()  
     port = os.getenv('PORT') 
-    enable_debug = (os.getenv('FLASK_DEBUG') == 'True')
+    enable_debug = (os.getenv('FLASK_DEBUG') == 'True') 
     port = int(port) if port else DEFAULT_PORT 
     app.run(
         host='0.0.0.0', 
