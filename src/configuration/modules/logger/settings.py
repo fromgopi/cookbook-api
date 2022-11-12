@@ -6,7 +6,7 @@ MAX_QUEUE_SIZE = 1000
 DEFAULT = '%(asctime)s - %(thread)d - %(levelname)s - %(message)s'
 CODE_INFO = ' [in %(pathname)s:%(lineno)d in %(funcName)s]'
 
-
+ 
 def get_configuration(
         logger_name, 
         debug_console_level='DEBUG',
