@@ -1,6 +1,6 @@
 """Logging configuration"""
 
-MAX_QUEUE_SIZE = 1000
+MAX_QUEUE_SIZE = 1000 
 
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
 DEFAULT = '%(asctime)s - %(thread)d - %(levelname)s - %(message)s'
