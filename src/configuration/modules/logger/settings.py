@@ -8,7 +8,7 @@ CODE_INFO = ' [in %(pathname)s:%(lineno)d in %(funcName)s]'
 
 
 def get_configuration(
-        logger_name,
+        logger_name, 
         debug_console_level='DEBUG',
         debug_file_level='DEBUG',
         debug_file_location=None,
