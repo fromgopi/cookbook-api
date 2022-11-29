@@ -19,4 +19,3 @@ class CamelCaseSchema(Schema):
         
         
         
-    
