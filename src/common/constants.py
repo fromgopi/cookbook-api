@@ -29,3 +29,4 @@ ACCESS_CONTROL_ACTIONS = {
     'DELETE': 'delete',
     '*': '*'
 }
+
