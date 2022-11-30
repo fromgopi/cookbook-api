@@ -70,4 +70,3 @@ def build_pagination_meta(users, request):
             str(users.page+1) + '&per_page=' + str(users.per_page)
 
     return meta
-
