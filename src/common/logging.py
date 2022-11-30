@@ -8,3 +8,4 @@ def setup_request_logger(ctx=None):
     request.log = getLogger(
         ctx.config['NAME'] if ctx is not None else app.config['NAME'])
     
+    
